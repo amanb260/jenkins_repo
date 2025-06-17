@@ -1,6 +1,6 @@
 Feature:close service request flow
 
-@demo @internal
+ @internal
 Scenario Outline: User login with external admin
 Given First user visit login page 
 Then user visit login page and enter the "<username>" and "<password>" 
@@ -14,7 +14,7 @@ Examples:
 | username               | password         |service                  |subservice                                |
 | vipuls@siddhatech.com  | banesco@contigo    |Solicitud de Reclamación | Reverso o Devolución no reconocida       |
 
-@demo   @internal
+ @internal
 Scenario Outline: User login with Banesco-admin
 Given First user visit login page 
 Then user visit login page and enter the "<username>" and "<password>" 

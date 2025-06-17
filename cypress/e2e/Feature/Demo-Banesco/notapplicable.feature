@@ -1,7 +1,7 @@
 Feature:Not applicable service request flow
 
 
-@demo
+
 Scenario Outline: User login with external admin
 Given First user visit login page 
 Then user visit login page and enter the "<username>" and "<password>" 
@@ -16,7 +16,7 @@ Examples:
 | vipuls@siddhatech.com  | banesco@contigo    |Solicitud de Reclamación | Reverso o Devolución no reconocida       |
 
 
-@demo
+
 Scenario Outline: User login with Banesco-admin
 Given First user visit login page 
 Then user visit login page and enter the "<username>" and "<password>" 

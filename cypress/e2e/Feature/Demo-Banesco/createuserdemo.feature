@@ -1,6 +1,6 @@
 Feature:user operations
 
-@demo
+
 Scenario Outline: user operation
 Given First user visit login page 
 Then user visit login page and enter the "<username>" and "<password>" 
