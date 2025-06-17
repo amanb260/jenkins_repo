@@ -1,0 +1,51 @@
+
+
+{
+    
+
+    "Client-admin": 
+      {
+        "email": "vipuls@siddhatech.com",
+        "password": "banesco@contigo"
+      },
+
+    
+
+    "Client-consultant and downloader": 
+        {
+          "email": "virajs@siddhatech.com",
+          "password": "banesco@contigo"
+        },
+  
+
+
+      "Only-consultant": 
+        {
+          "email": "prathmesh.hire@siddhatech.com ",
+          "password": "banesco@contigo"
+        },
+
+        "Banesco-admin":
+        {
+          "email": "ovsingh@banesco.com",
+          "password": "banesco@contigo"
+        },
+        "Banesco-consultant and downloader":
+        {
+          "email": "cydvipul@banesco.com",
+          "password": "banesco@contigo"
+        },
+        "Banesco-Only-consultant":
+        {
+          "email": "ocvipul@banesco.com",
+          "password": "banesco@contigo"
+        }
+  
+    
+
+
+  }
+  
+
+
+

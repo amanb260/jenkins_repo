@@ -1,0 +1,22 @@
+external admin :
+npx cypress run --spec cypress/e2e/Feature/client-admin/*.feature --env TAGS='@client_admin' --browser chrome --headed  
+
+external consultant and downloader:
+
+npx cypress run --spec cypress/e2e/Feature/client-downloader/*.feature --env TAGS='@client_downloader' --browser chrome --headed
+
+external only consultant:
+
+npx cypress run --spec cypress/e2e/Feature/client-only_consultant/*.feature --env TAGS='@client_consultant' --browser chrome --headed
+
+
+Banesco admin:
+npx cypress run --spec cypress/e2e/Feature/Banesco-admin/*.feature --env TAGS='@Banesco_admin' --browser chrome --headed  
+
+generate cucumber report: 
+node cucumber-html-report.js
+
+
+
+      
+
