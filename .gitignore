@@ -6,8 +6,7 @@
 /cypress/downloads/
 /cypress/allure-report/
 # Ignore package.json and package-lock.json
-/package.json
-/package-lock.json
+
  
 
  
