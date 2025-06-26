@@ -17,6 +17,6 @@ generate cucumber report:
 node cucumber-html-report.js
 
 
-12345
+12
       
 
