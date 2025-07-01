@@ -11,4 +11,4 @@ COPY . .
 RUN npm install
 
 # Run Cypress tests on container start
-CMD npx cypress run --spec cypress/e2e/Feature/Demo-Banesco/LoginDemo.feature
+CMD ["npx", "cypress", "run", "--spec", "cypress/e2e/Feature/Demo-Banesco/LoginDemo.feature"]
